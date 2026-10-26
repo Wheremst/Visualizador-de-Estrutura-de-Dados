@@ -1,0 +1,23 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  background: #1e293b;
+  border-bottom: 3px solid #38bdf8;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #f1f5f9;
+}
+
+.app-main {
+  flex: 1;
+  padding: 2rem;
+}
